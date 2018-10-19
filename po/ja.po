@@ -11,16 +11,15 @@ msgstr ""
 "Project-Id-Version: geary-0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-08 13:23-0800\n"
-"PO-Revision-Date: 2018-05-24 00:10+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
-"Language-Team: Japanese "
-"<https://weblate.elementary.io/projects/mail/mail/ja/>\n"
+"PO-Revision-Date: 2017-05-07 03:38+0000\n"
+"Last-Translator: Ryo Nakano <nscnskichiro0911@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/mail/mail/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-03-09 05:59+0000\n"
 
 #: ../src/engine/imap-engine/imap-engine-generic-account.vala:575
@@ -61,7 +60,7 @@ msgstr "送信済みメール"
 
 #: ../src/engine/api/geary-special-folder-type.vala:33
 msgid "Starred"
-msgstr "スター付き"
+msgstr "スター"
 
 #: ../src/engine/api/geary-special-folder-type.vala:36
 msgid "Important"
@@ -198,19 +197,19 @@ msgstr "%Y年%b%-e日 %a %p %l:%M"
 #. / the original sender.
 #: ../src/engine/rfc822/rfc822-utils.vala:221
 msgid "On %1$s, %2$s wrote:"
-msgstr "%1$s、%2$s のメール:"
+msgstr "%1$s 、 %2$s さんより:"
 
 #. / The quoted header for a message being replied to (in case the date is not known).
 #. / %s will be replaced by the original sender.
 #: ../src/engine/rfc822/rfc822-utils.vala:228
 msgid "%s wrote:"
-msgstr "%s のメール:"
+msgstr "%s さんより:"
 
 #. / The quoted header for a message being replied to (in case the sender is not known).
 #. / %s will be replaced by the original date
 #: ../src/engine/rfc822/rfc822-utils.vala:234
 msgid "On %s:"
-msgstr "%s:"
+msgstr "On %s:"
 
 #: ../src/engine/rfc822/rfc822-utils.vala:263
 msgid "---------- Forwarded message ----------"
@@ -226,7 +225,7 @@ msgstr "件名: %s\n"
 
 #: ../src/engine/rfc822/rfc822-utils.vala:269
 msgid "Date: %s\n"
-msgstr "日付: %s\n"
+msgstr "Date: %s\n"
 
 #: ../src/engine/rfc822/rfc822-utils.vala:272
 msgid "To: %s\n"
@@ -345,7 +344,7 @@ msgstr[0] "メッセージをマークする"
 #: ../src/client/application/geary-controller.vala:79
 #: ../src/client/application/geary-controller.vala:78
 msgid "Mark conversations"
-msgstr "メッセージをマーク"
+msgstr "スレッドをマーク"
 
 #: ../src/client/application/geary-controller.vala:82
 #: ../src/client/components/main-toolbar.vala:114
@@ -403,7 +402,7 @@ msgstr "メッセージを移動"
 #: ../src/client/application/geary-controller.vala:369
 #: ../src/client/application/geary-controller.vala:375
 msgid "A_ccounts"
-msgstr "アカウント (_C)"
+msgstr "アカウント(_C)"
 
 #: ../src/client/application/geary-controller.vala:377
 #: ../src/client/components/stock.vala:27
@@ -414,7 +413,7 @@ msgstr "アカウント (_C)"
 #: ../src/client/application/geary-controller.vala:380
 #: ../src/client/application/geary-controller.vala:381
 msgid "_Preferences"
-msgstr "設定 (_P)"
+msgstr "設定(_P)"
 
 #: ../src/client/application/geary-controller.vala:381
 #: ../src/client/components/stock.vala:25
@@ -427,7 +426,7 @@ msgstr "ヘルプ (_H)"
 #: ../src/client/application/geary-controller.vala:384
 #: ../src/client/application/geary-controller.vala:379
 msgid "_About"
-msgstr "\"メール\" について (_A)"
+msgstr "画面定規について"
 
 #: ../src/client/application/geary-controller.vala:389
 #: ../src/client/components/stock.vala:29
@@ -578,7 +577,7 @@ msgstr "空"
 #: ../src/client/components/main-toolbar.vala:71
 #: ../src/client/application/geary-controller.vala:481
 msgid "Empty Spam or Trash folders"
-msgstr "迷惑メールフォルダとゴミ箱を空にする"
+msgstr "迷惑メールフォルダーとゴミ箱を空にする"
 
 #: ../src/client/application/geary-controller.vala:496
 #: ../src/client/application/geary-controller.vala:495
@@ -588,7 +587,7 @@ msgstr "迷惑メールフォルダとゴミ箱を空にする"
 #: ../src/client/application/geary-controller.vala:474
 #: ../src/client/application/geary-controller.vala:480
 msgid "Empty _Spam…"
-msgstr "迷惑メールフォルダを空にする (_S) …"
+msgstr "迷惑メールフォルダーを空にする (_S) …"
 
 #: ../src/client/application/geary-controller.vala:500
 #: ../src/client/application/geary-controller.vala:499
@@ -622,7 +621,7 @@ msgstr "サーバーの信頼の例外を保存することができません"
 #: ../src/client/application/geary-controller.vala:954
 #: ../src/client/application/geary-controller.vala:948
 msgid "Your settings are insecure"
-msgstr "設定が安全ではありません"
+msgstr "設定がセキュアでありません"
 
 #: ../src/client/application/geary-controller.vala:984
 #: ../src/client/application/geary-controller.vala:978
@@ -636,8 +635,8 @@ msgid ""
 "username and password could be read by another person on the network.  Are "
 "you sure you want to do this?"
 msgstr ""
-"IMAP/SMTP の通信に SSL/TLS "
-"が指定されていません。ユーザー名とパスワードはネットワーク上の他人に読み取られる可能性があります。続行しますか？"
+"IMAP/SMTP の通信に SSL/TLS が指定されていません。ユーザー名とパスワードはネッ"
+"トワーク上の他人に読み取られる可能性があります。よろしいですか？"
 
 #: ../src/client/application/geary-controller.vala:985
 #: ../src/client/application/geary-controller.vala:979
@@ -647,7 +646,7 @@ msgstr ""
 #: ../src/client/application/geary-controller.vala:956
 #: ../src/client/application/geary-controller.vala:950
 msgid "Co_ntinue"
-msgstr "続行する (_N)"
+msgstr "続行する(_N)"
 
 #. / Displayed in the space-limited status bar when a message fails to be sent due to error.
 #: ../src/client/application/geary-controller.vala:1063
@@ -708,7 +707,7 @@ msgstr "ラベル"
 #: ../src/client/application/geary-controller.vala:1121
 #: ../src/client/application/geary-controller.vala:1115
 msgid "Unable to open the database for %s"
-msgstr "%s のデータベースを開くことができませんでした"
+msgstr "データーベース %s を開けませんでした"
 
 #: ../src/client/application/geary-controller.vala:1151
 #: ../src/client/application/geary-controller.vala:1145
@@ -723,14 +722,17 @@ msgid ""
 "Rebuilding the database will destroy all local email and its attachments. "
 "<b>The mail on the your server will not be affected.</b>"
 msgstr ""
-"このアカウントのローカルメールデータベースを開く途中でエラーが発生しました。これは、このディレクトリ内のデータベースファイルの欠落に起因している可能性があ"
-"ります。\n"
+"このアカウントのローカル メール データーベースを開く途中でエラーが発生しまし"
+"た。これは、このディレクトリ内のデーターベース ファイルの欠落に起因している可"
+"能性があります。\n"
 "\n"
 "%s\n"
 "\n"
-"サーバーと接続するか、Geary を終了することによって、Geary はデータベースを再構築し、再同期することができます。\n"
+"サーバーと接続するか、 Geary を終了することによって、 Geary はデーターベース"
+"を再読み込みし、再同期することができます。\n"
 "\n"
-"データベースの再構築はローカルにあるすべてのメールと添付ファイルを削除します。<b>サーバー上のメールは影響を受けません。</b>"
+"データーベースの再読み込みはローカルにあるすべてのメールと添付ファイルを削除"
+"します。<b>サーバー上のメールは影響を受けません。</b>"
 
 #: ../src/client/application/geary-controller.vala:1153
 #: ../src/client/application/geary-controller.vala:1147
@@ -740,7 +742,7 @@ msgstr ""
 #: ../src/client/application/geary-controller.vala:1124
 #: ../src/client/application/geary-controller.vala:1118
 msgid "_Rebuild"
-msgstr "再構築 (_R)"
+msgstr "並べ替え"
 
 #: ../src/client/application/geary-controller.vala:1153
 #: ../src/client/application/geary-controller.vala:1147
@@ -760,7 +762,7 @@ msgstr "終了 (_X)"
 #: ../src/client/application/geary-controller.vala:1133
 #: ../src/client/application/geary-controller.vala:1127
 msgid "Unable to rebuild database for \"%s\""
-msgstr "\"%s\" のデータベースを再構築することができませんでした"
+msgstr "%s のデーターベースの再読み込みができませんでした"
 
 #: ../src/client/application/geary-controller.vala:1163
 #: ../src/client/application/geary-controller.vala:1157
@@ -774,7 +776,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"再構築の途中でエラーが発生しました。\n"
+"再読み込みの途中でエラーが発生しました。\n"
 "\n"
 "%s"
 
@@ -798,7 +800,7 @@ msgstr ""
 #: ../src/client/application/geary-controller.vala:1150
 #: ../src/client/application/geary-controller.vala:1160
 msgid "Unable to open local mailbox for %s"
-msgstr "%s のローカルメールボックス %s を開くことができませんでした"
+msgstr "ローカルメールボックス %s を開く事ができませんでした"
 
 #: ../src/client/application/geary-controller.vala:1186
 #: ../src/client/application/geary-controller.vala:1180
@@ -816,7 +818,8 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"このアカウントのローカルメールデータベースを開く途中でエラーが発生しました。これは、ファイルのアクセス権の問題に起因している可能性があります。\n"
+"このアカウントのローカル メール データーベースを開く途中でエラーが発生しまし"
+"た。これは、ファイルのアクセス権の問題に起因している可能性があります。\n"
 "\n"
 "このディレクトリにおいてファイルのアクセス権があるか確認してください。\n"
 "\n"
@@ -831,9 +834,10 @@ msgid ""
 "\n"
 "Please install the latest version of Geary and try again."
 msgstr ""
-"ローカルデータベースのバージョン番号は新しいバージョンの Geary のものです。残念ですが、データベースはこのバージョンの Geary "
-"で動作するようにロールバックできません。\n"
-"最新のバージョンの Geary をインストールしてもう一度お試しください。"
+"ローカル  データーベースのバージョン番号は新しいバージョンの Geary のもので"
+"す。残念ですが、データーベースはこのバージョンの Geary で動作するようにロール"
+"バックできません。\n"
+"最新のバージョンの Geary をインストールしてもう一度試してください。"
 
 #: ../src/client/application/geary-controller.vala:1207
 #: ../src/client/application/geary-controller.vala:1201
@@ -891,7 +895,7 @@ msgstr "移動のやり直し (Ctrl+Z)"
 #: ../src/client/application/geary-controller.vala:1950
 #: ../src/client/application/geary-controller.vala:1946
 msgid "Are you sure you want to open \"%s\"?"
-msgstr "\"%s\" を開いてもよろしいですか？"
+msgstr "\"%s\" を開きますか？"
 
 #: ../src/client/application/geary-controller.vala:1987
 #: ../src/client/application/geary-controller.vala:1981
@@ -901,7 +905,9 @@ msgstr "\"%s\" を開いてもよろしいですか？"
 msgid ""
 "Attachments may cause damage to your system if opened.  Only open files from "
 "trusted sources."
-msgstr "添付ファイルはシステムにダメージを与える恐れがあります。信頼できる送信元からのみ開くようにしてください。"
+msgstr ""
+"添付ファイルはシステムにダメージを与える恐れがあります。信頼できる送信元から"
+"のみ開くようにして下さい。"
 
 #: ../src/client/application/geary-controller.vala:1988
 #: ../src/client/application/geary-controller.vala:1982
@@ -960,7 +966,7 @@ msgstr "開いている下書きを閉じますか？"
 #: ../src/client/application/geary-controller.vala:2394
 #: ../src/client/application/geary-controller.vala:2389
 msgid "Empty all email from your %s folder?"
-msgstr "フォルダ %s のメールをすべて空にしてよろしいですか？"
+msgstr "フォルダー %s のメールをすべて空にしてよろしいですか？"
 
 #: ../src/client/application/geary-controller.vala:2440
 #: ../src/client/application/geary-controller.vala:2434
@@ -1051,7 +1057,7 @@ msgstr "元に戻す(Ctrl+Z)"
 #: ../src/client/application/geary-args.vala:10
 #: ../src/client/application/geary-args.vala:11
 msgid "Start Geary with hidden main window"
-msgstr "メインウィンドウを隠して Geary を起動する"
+msgstr "メインウィンドウを隠してGearyを起動する"
 
 #: ../src/client/application/geary-args.vala:11
 #: ../src/client/application/geary-args.vala:12
@@ -1101,7 +1107,7 @@ msgstr "データベースクエリを記録 (多くのメッセージを生成�
 #: ../src/client/application/geary-args.vala:24
 #: ../src/client/application/geary-args.vala:25
 msgid "Log folder normalization"
-msgstr "フォルダの同期を記録"
+msgstr "フォルダーの同期を記録"
 
 #: ../src/client/application/geary-args.vala:25
 #: ../src/client/application/geary-args.vala:26
@@ -1131,7 +1137,7 @@ msgstr "コメント、提案、バグ報告はこちらへ:"
 #: ../src/client/application/geary-args.vala:59
 #: ../src/client/application/geary-args.vala:61
 msgid "Failed to parse command line options: %s\n"
-msgstr "コマンドラインオプションの構文解析に失敗しました: %s\n"
+msgstr "不明なコマンドラインオプション: %s\n"
 
 #: ../src/client/application/geary-args.vala:70
 #: ../src/client/application/geary-args.vala:72
@@ -1181,25 +1187,28 @@ msgstr "自分"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:33
 msgid "Untrusted Connection: %s"
-msgstr "信頼されていない接続です: %s"
+msgstr "%s は信頼できない接続です"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:36
 msgid "The identity of the %s mail server at %s:%u could not be verified."
-msgstr "%s のポート %u における %s メールサーバーのの身元を立証できませんでした。"
+msgstr ""
+"%s のポート %u における %s メール サーバーのの身元を立証できませんでした。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:44
 msgid ""
 "Selecting \"Trust This Server\" or \"Always Trust This Server\" may cause "
 "your username and password to be transmitted insecurely."
 msgstr ""
-"\"このサーバーを信頼する\" や \"常にこのサーバーを信頼する\" "
-"を選択することにより、あなたのユーザー名とパスワードは安全でない方法で送信されます。"
+"\"このサーバーを信頼しない\" や\"常にこのサーバーを信頼しない\" を選択するこ"
+"とにより、あなたのユーザー名とパスワードは安全でない方法で送信されます。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:52
 msgid ""
 "Selecting \"Don't Trust This Server\" will cause Geary not to access this "
 "server."
-msgstr "\"このサーバーを信頼しない\" を選択することにより、Geary はこのアカウントへのアクセスを停止します。"
+msgstr ""
+"\"このサーバーを信頼しない\" を選択することにより、 Geary はこのアカウントへ"
+"のアクセスを停止します。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:54
 msgid "Geary will not add or update this email account."
@@ -1209,11 +1218,13 @@ msgstr "Geary はこのメールアカウントを追加または更新できま
 msgid ""
 "Selecting \"Don't Trust This Server\" will cause Geary to stop accessing "
 "this account."
-msgstr "\"このサーバーを信頼しない\" を選択することにより、Geary はこのアカウントへのアクセスを停止します。"
+msgstr ""
+"\"このサーバーを信頼しない\" を選択することにより、 Geary はこのアカウントへ"
+"のアクセスを停止します。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:61
 msgid "Geary will exit if you have no other open email accounts."
-msgstr "ほかに開くメールアカウントがなければ、Geary は終了します。"
+msgstr "ほかに開くメールアカウントがなければ、 Geary は終了します。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:66
 msgid ""
@@ -1559,7 +1570,7 @@ msgstr[0] "%u 件のメッセージが選択されています。"
 #: ../src/client/conversation-viewer/conversation-viewer.vala:341
 #: ../src/client/conversation-viewer/conversation-viewer.vala:342
 msgid "No search results found."
-msgstr "検索結果はありませんでした。"
+msgstr "検索の結果、お探しのものは見つかりませんでした。"
 
 #: ../src/client/conversation-viewer/conversation-viewer.vala:446
 #: ../src/client/conversation-viewer/conversation-viewer.vala:448
@@ -1568,7 +1579,7 @@ msgstr "検索結果はありませんでした。"
 #: ../src/client/conversation-viewer/conversation-viewer.vala:343
 #: ../src/client/conversation-viewer/conversation-viewer.vala:344
 msgid "No conversations in folder."
-msgstr "フォルダにメッセージがありません。"
+msgstr "フォルダーにメッセージがありません。"
 
 #: ../src/client/conversation-viewer/conversation-viewer.vala:708
 #: ../src/client/conversation-viewer/conversation-viewer.vala:713
@@ -1620,7 +1631,7 @@ msgstr "差出人:"
 #: ../src/client/conversation-viewer/ConversationWidget.vala:161
 #: ../src/client/conversation-viewer/ConversationWidget.vala:163
 msgid "To:"
-msgstr "宛先:"
+msgstr "To:"
 
 #: ../src/client/conversation-viewer/conversation-viewer.vala:815
 #: ../src/client/conversation-viewer/conversation-viewer.vala:820
@@ -1663,7 +1674,8 @@ msgstr[0] "%u 件の既読メッセージ"
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1271
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1276
 msgid "This message was sent successfully, but could not be saved to %s."
-msgstr "このメッセージは正しく送信されましたが、%s に保存することができませんでした。"
+msgstr ""
+"このメッセージは正しく送信されましたが、%sに保存することができませんでした。"
 
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1297
 #: ../data/ui/composer.ui:29
@@ -1758,13 +1770,13 @@ msgstr "名前を付けて保存 (_S) …"
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1827
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1832
 msgid "Save All A_ttachments..."
-msgstr "すべての添付ファイルを保存 (_T) …"
+msgstr "全ての添付ファイルを保存 (_T) …"
 
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1847
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1852
 msgid "Save A_ttachment..."
 msgid_plural "Save All A_ttachments..."
-msgstr[0] "すべての添付ファイルを保存 (_T) …"
+msgstr[0] "全ての添付ファイルを保存 (_T) …"
 
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1862
 #: ../src/client/conversation-viewer/conversation-viewer.vala:1867
@@ -1903,7 +1915,7 @@ msgstr "\"%s\" は見つかりませんでした。"
 #: ../src/client/composer/composer-widget.vala:1504
 #: ../src/client/composer/composer-widget.vala:1501
 msgid "\"%s\" is a folder."
-msgstr "\"%s\" はフォルダです。"
+msgstr "\"%s\" はフォルダーです。"
 
 #: ../src/client/composer/composer-widget.vala:1555
 #: ../src/client/composer/composer-widget.vala:1550
@@ -1927,7 +1939,7 @@ msgstr "\"%s\" を開くことができませんでした。"
 #: ../src/client/composer/composer-widget.vala:1532
 #: ../src/client/composer/composer-widget.vala:1529
 msgid "\"%s\" already attached for delivery."
-msgstr "\"%s\" はすでに添付されています。"
+msgstr "\"%s\" は既に添付されています。"
 
 #. / In the composer, the filename followed by its filesize, i.e. "notes.txt (1.12KB)"
 #: ../src/client/composer/composer-widget.vala:1585
@@ -2016,7 +2028,7 @@ msgstr "%s (%d)"
 #. / Displayed in the space-limited status bar while a message is in the process of being sent.
 #: ../src/client/components/status-bar.vala:26
 msgid "Sending..."
-msgstr "送信しています..."
+msgstr "送信中..."
 
 #: ../src/client/components/conversation-find-bar.vala:214
 msgid "%i match"
@@ -2118,12 +2130,12 @@ msgstr "E メールで送信"
 #: ../src/client/application/geary-application.vala:25
 #: ../src/Translations.vala:2
 msgid "Send files using Mail"
-msgstr "\"メール\" を使ってファイルを送信する"
+msgstr "Mail を使ってファイルを送信する"
 
 #: ../src/client/accounts/add-edit-page.vala:233
 #: ../src/client/accounts/add-edit-page.vala:234
 msgid "Welcome to Mail"
-msgstr "\"メール\" へようこそ"
+msgstr "Mail へようこそ"
 
 #: ../src/client/composer/composer-toolbar.vala:43 ../data/ui/composer.ui:75
 #: ../src/client/composer/composer-toolbar.vala:77
@@ -2148,12 +2160,12 @@ msgstr "メールの読み込み"
 #: ../src/client/dialogs/preferences-dialog.vala:28
 #: ../src/client/dialogs/preferences-dialog.vala:29
 msgid "Automatically select next message:"
-msgstr "新しいメッセージを自動的に選択する:"
+msgstr "新しいメッセージを自動的に選択する："
 
 #: ../src/client/dialogs/preferences-dialog.vala:33
 #: ../src/client/dialogs/preferences-dialog.vala:34
 msgid "Conversation previews:"
-msgstr "メッセージのプレビューを表示する:"
+msgstr "メッセージのプレビューを表示する："
 
 #: ../src/client/dialogs/preferences-dialog.vala:38
 #: ../src/client/dialogs/preferences-dialog.vala:39
@@ -2180,7 +2192,7 @@ msgstr "通知"
 #: ../src/client/dialogs/preferences-dialog.vala:62
 #: ../src/client/dialogs/preferences-dialog.vala:52
 msgid "Always watch for new mail:"
-msgstr "常に新しいメールを確認する:"
+msgstr "常に新しいメールを確認する："
 
 #: ../src/client/application/geary-controller.vala:61
 #: ../src/client/application/geary-controller.vala:60
@@ -2207,7 +2219,9 @@ msgstr "メッセージを削除する (Shift+Delete)"
 msgid ""
 "<span weight=\"bold\" size=\"larger\">Are you sure you want to remove this "
 "account?</span> "
-msgstr "<span weight=\"bold\" size=\"larger\">このアカウントを削除してもよろしいですか？</span> "
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">本当にこのアカウントを削除しますか？</"
+"span> "
 
 #: ../data/ui/remove_confirm.ui:58
 #: ../src/client/accounts/AccountDialogRemoveConfirmPane.vala:42
@@ -2282,11 +2296,11 @@ msgstr "やり直し (_R)"
 
 #: ../data/ui/composer.ui:22
 msgid "Cu_t"
-msgstr "カット (_T)"
+msgstr "切り取り (_T)"
 
 #: ../data/ui/composer.ui:36
 msgid "_Paste"
-msgstr "ペースト (_P)"
+msgstr "貼り付け (_P)"
 
 #: ../data/ui/composer.ui:43
 msgid "_Left"
@@ -2327,7 +2341,7 @@ msgstr "フォーマットを削除 (Ctrl+Space)"
 #: ../data/ui/composer.ui:100 ../data/ui/composer.ui:97
 msgctxt "Clipboard paste with rich text"
 msgid "Paste _With Formatting"
-msgstr "書式付きでペースト (_W)"
+msgstr "フォーマットなしで貼り付け (_W)"
 
 #: ../data/ui/composer.ui:111 ../src/client/composer/ComposerToolbar.vala:36
 msgid "Bold (Ctrl+B)"
@@ -2488,7 +2502,7 @@ msgstr "アプリケーションメニュー"
 #: ../data/ui/composer.ui:289 ../data/ui/composer.ui:317
 #: ../data/ui/composer.ui:287 ../data/ui/composer.ui:292
 msgid "_To"
-msgstr "宛先 (_T)"
+msgstr "To (_T)"
 
 #: ../data/ui/composer.ui:308 ../data/ui/composer.ui:336
 #: ../data/ui/composer.ui:306 ../data/ui/composer.ui:311
@@ -2520,7 +2534,7 @@ msgstr "差出人"
 #: ../data/ui/composer.ui:519 ../data/ui/composer.ui:547
 #: ../data/ui/composer.ui:517 ../data/ui/composer.ui:522
 msgid "Drop files here"
-msgstr "ここにファイルをドロップしてください"
+msgstr "ここにファイルをドロップして下さい"
 
 #: ../data/ui/composer.ui:535 ../data/ui/composer.ui:563
 #: ../data/ui/composer.ui:533 ../data/ui/composer.ui:538
@@ -2590,7 +2604,7 @@ msgstr "ポート番号 (_O)"
 
 #: ../data/ui/login.ui:409
 msgid "Ser_ver:"
-msgstr "サーバー (_V):"
+msgstr "サーバー (_V)："
 
 #: ../data/ui/login.ui:427
 msgid "Por_t"
@@ -2650,7 +2664,7 @@ msgstr "認証は不要 (_Q)"
 
 #: ../data/ui/login.ui:679
 msgid "Use IMAP cre_dentials"
-msgstr "IMAP の資格情報を使用する (_D)"
+msgstr "IMAPの資格情報を使用する (_D)"
 
 #: ../data/ui/login.ui:783
 msgid "Storage"
@@ -2666,7 +2680,7 @@ msgstr "サーバーに下書きを保存する (_F)"
 
 #: ../data/ui/login.ui:884
 msgid "Si_gn emails (HTML allowed):"
-msgstr "メールに署名する (HTML も可) (_G):"
+msgstr "メールに署名する (HTML も可) (_G)："
 
 #: ../data/ui/account_list.ui:69
 msgid "Add account"
@@ -2686,7 +2700,7 @@ msgstr "信頼されていない接続"
 
 #: ../data/ui/certificate_warning_dialog.ui:29
 msgid "_Always Trust This Server"
-msgstr "常にこのサーバーを信用する (_A)"
+msgstr "_常にこのサーバーを信用する"
 
 #: ../data/ui/certificate_warning_dialog.ui:43
 msgid "_Trust This Server"
@@ -2729,7 +2743,9 @@ msgstr "Web サイト"
 msgid ""
 "Mail encountered an error sending an email.  If the problem persists, please "
 "manually delete the email from your Outbox folder."
-msgstr "メールの送信中にエラーが発生しました。もしこの問題が続く場合、送信トレイからメールを手動で削除してください。"
+msgstr ""
+"メールの送信中に Mail にエラーが発生しました。もしこの問題が続く場合、送信ト"
+"レイからメールを手動で削除してください。"
 
 #: ../src/client/application/geary-controller.vala:1057
 #: ../src/client/application/geary-controller.vala:1051
@@ -2739,7 +2755,9 @@ msgstr "メールの送信中にエラーが発生しました。もしこの問
 msgid ""
 "Mail encountered an error saving a sent message to Sent Mail.  The message "
 "will stay in your Outbox folder until you delete it."
-msgstr "送信フォルダへの送信メールの保存中にエラーが発生しました。送信トレイからメールを削除するまで、メッセージは送信トレイに残ります。"
+msgstr ""
+"送信フォルダへの送信メールの保存中に Mail にエラーが発生しました。送信トレイ"
+"からメールを削除するまで、メッセージは送信トレイに残ります。"
 
 #: ../src/client/application/geary-controller.vala:1139
 #: ../src/client/application/geary-controller.vala:1133
@@ -2757,14 +2775,17 @@ msgid ""
 "Rebuilding the database will destroy all local email and its attachments. "
 "<b>The mail on the your server will not be affected.</b>"
 msgstr ""
-"このアカウントのローカルメールデータベースを開く途中でエラーが発生しました。これは、このディレクトリ内のデータベースファイルの欠落に起因している可能性があ"
-"ります。\n"
+"このアカウントのローカル メール データーベースを開く途中でエラーが発生しまし"
+"た。これは、このディレクトリ内のデーターベース ファイルの欠落に起因している可"
+"能性があります。\n"
 "\n"
 "%s\n"
 "\n"
-"サーバーと接続するか、\"メール\" を終了することによって、データベースを再構築し、再同期することができます。\n"
+"サーバーと接続するか、 Mail を終了することによって、 Mail はデーターベースを"
+"再読み込みし、再同期することができます。\n"
 "\n"
-"データベースの再構築はローカルにあるすべてのメールと添付ファイルを削除します。<b>サーバー上のメールは影響を受けません。</b>"
+"データーベースの再読み込みはローカルにあるすべてのメールと添付ファイルを削除"
+"します。<b>サーバー上のメールは影響を受けません。</b>"
 
 #: ../src/client/application/geary-controller.vala:1184
 #: ../src/client/application/geary-controller.vala:1178
@@ -2778,9 +2799,10 @@ msgid ""
 "\n"
 "Please install the latest version of Mail and try again."
 msgstr ""
-"ローカルデータベースのバージョン番号は新しいバージョンの \"メール\" のものです。残念ですが、データベースはこのバージョンの \"メール\" "
-"で動作するようにロールバックできません。\n"
-"最新のバージョンの \"メール\" をインストールしてもう一度お試しください。"
+"ローカル  データーベースのバージョン番号は新しいバージョンの Mail のもので"
+"す。残念ですが、データーベースはこのバージョンの Mail で動作するようにロール"
+"バックできません。\n"
+"最新のバージョンの Mail をインストールしてもう一度試してください。"
 
 #: ../src/client/application/geary-controller.vala:1195
 #: ../src/client/application/geary-controller.vala:1189
@@ -2793,9 +2815,10 @@ msgid ""
 "\n"
 "Please check your network connection and restart Mail."
 msgstr ""
-"ローカルアカウントを開く時にエラーが発生しました。これは接続の問題によるものと予測されます。\n"
+"ローカルアカウントを開く時にエラーが発生しました。これは接続の問題によるもの"
+"と予測されます。\n"
 "\n"
-"ネットワーク接続を確認し \"メール\" を再起動してください。"
+"ネットワーク接続を確認し Mail を再起動してください。"
 
 #: ../src/client/application/geary-controller.vala:2402
 #: ../src/client/application/geary-controller.vala:2404
@@ -2803,11 +2826,11 @@ msgstr ""
 #: ../src/client/application/geary-controller.vala:2395
 #: ../src/client/application/geary-controller.vala:2390
 msgid "This removes the email from Mail and your email server."
-msgstr "この操作は \"メール\" とメールサーバーからメールを削除します。"
+msgstr "この操作は Mail とメールサーバーからメールを削除します。"
 
 #: ../src/client/accounts/add-edit-page.vala:771
 msgid "        &#8226; Email address already added to Mail.\n"
-msgstr "        &#8226;メールアドレスはすでに \"メール\" へ追加されています。\n"
+msgstr "        &#8226; メールアドレスはすでに Mail へ追加されています。\n"
 
 #: ../src/client/dialogs/preferences-dialog.vala:44
 #: ../src/client/dialogs/preferences-dialog.vala:43
@@ -2823,30 +2846,34 @@ msgstr "続行するには、メールのパスワードが必要です"
 msgid ""
 "Selecting \"Don't Trust This Server\" will cause Mail not to access this "
 "server."
-msgstr "\"このサーバーを信頼しない\" を選択することにより、\"メール\" はこのアカウントへのアクセスを停止します。"
+msgstr ""
+"\"このサーバーを信頼しない\" を選択することにより、 Mail はこのアカウントへの"
+"アクセスを停止します。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:54
 msgid "Mail will not add or update this email account."
-msgstr "このメールアカウントを追加または更新することができません。"
+msgstr "Mail はこのメールアカウントを追加または更新できません。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:59
 msgid ""
 "Selecting \"Don't Trust This Server\" will cause Mail to stop accessing this "
 "account."
-msgstr "\"このサーバーを信頼しない\" を選択することにより、\"メール\" はこのアカウントへのアクセスを停止します。"
+msgstr ""
+"\"このサーバーを信頼しない\" を選択することにより、 Mail はこのアカウントへの"
+"アクセスを停止します。"
 
 #: ../src/client/dialogs/certificate-warning-dialog.vala:61
 msgid "Mail will exit if you have no other open email accounts."
-msgstr "ほかに開くメールアカウントがなければ、\"メール\" は終了します。"
+msgstr "ほかに開くメールアカウントがなければ、 Mail は終了します。"
 
 #: ../data/ui/account_spinner.ui:41
 #: ../src/client/accounts/account-spinner-page.vala:22
 msgid "Please wait while Mail validates your account."
-msgstr "メールアカウントを検証する間お待ちください。"
+msgstr "Mail がメールアカウントを検証する間お待ちください。"
 
 #: ../data/ui/upgrade_dialog.ui:60
 msgid "Mail update in progress…"
-msgstr "アップデートが進行しています…"
+msgstr "Mail のアップデートが進行しています…"
 
 #: ../src/client/components/main-toolbar.vala:26
 #: ../src/client/components/main-toolbar.vala:41
@@ -2863,7 +2890,7 @@ msgstr ""
 
 #: ../src/client/application/geary-args.vala:10
 msgid "Show About dialog"
-msgstr "情報ダイアログを表示"
+msgstr "情報ダイアログを表示する"
 
 #: ../src/client/conversation-viewer/ConversationWidget.vala:218
 #: ../src/client/conversation-viewer/ConversationWidget.vala:227
@@ -3059,13 +3086,15 @@ msgstr "引用テキスト  (Ctrl+])"
 
 #: ../src/client/dialogs/OpenAttachmentDialog.vala:34
 msgid "Are you sure you want to open %s?"
-msgstr "%s を開いてもよろしいですか？"
+msgstr "%s を開きますか？"
 
 #: ../src/client/dialogs/OpenAttachmentDialog.vala:40
 msgid ""
 "Attachments may cause damage to your system if opened. Only open files from "
 "trusted sources."
-msgstr "添付ファイルはシステムにダメージを与える恐れがあります。信頼できる送信元からのみ開くようにしてください。"
+msgstr ""
+"添付ファイルはシステムにダメージを与える恐れがあります。信頼できる送信元から"
+"のみ開くようにして下さい。"
 
 #: ../src/client/dialogs/OpenAttachmentDialog.vala:45
 msgid "Don't ask me again"
@@ -3073,7 +3102,7 @@ msgstr "次回から確認しない"
 
 #: ../src/client/dialogs/OpenAttachmentDialog.vala:48
 msgid "Open Anyway"
-msgstr "とにかく開く"
+msgstr "それでも開く"
 
 #: ../src/client/dialogs/OpenAttachmentDialog.vala:64
 #: ../src/client/accounts/AccountDialogRemoveConfirmPane.vala:59
@@ -3083,7 +3112,7 @@ msgstr "キャンセル"
 
 #: ../src/client/accounts/AccountDialogRemoveConfirmPane.vala:36
 msgid "Are you sure you want to remove this account?"
-msgstr "このアカウントを削除してもよろしいですか？"
+msgstr "本当にこのアカウントを削除しますか？"
 
 #: ../src/client/accounts/AccountDialogRemoveConfirmPane.vala:53
 msgid "Email Address:"
@@ -3103,7 +3132,7 @@ msgstr "パスワード:"
 
 #: ../src/client/dialogs/PasswordDialog.vala:55
 msgid "SMTP Credentials:"
-msgstr "SMTP の資格情報:"
+msgstr "SMTP の資格情報："
 
 #: ../src/client/dialogs/PasswordDialog.vala:62
 msgid "Remember password"

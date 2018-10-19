@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Mail
+Comment=Send and receive mail
+Exec=io.elementary.mail %U
+Icon=internet-mail
+Keywords=Email;E-mail;Mail;
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/mailto;
+StartupNotify=true
+Categories=GNOME;GTK;Network;Email;
+X-GNOME-UsesNotifications=true
+Actions=Compose;
+
+[Desktop Action Compose]
+Name=Compose Message
+Exec=io.elementary.mail mailto:
